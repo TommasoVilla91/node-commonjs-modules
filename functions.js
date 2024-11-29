@@ -5,6 +5,15 @@ function fullName(firstName, lastName) {
     };
 };
 
+function hobbiesList(hobbyOne, hobbyTwo, hobbyThree) {
+    return {
+        hobbies: [
+            hobbyOne, hobbyTwo, hobbyThree
+        ]
+    };
+};
+
 module.exports = {
-    userName: fullName
+    userName: fullName,
+    userHobbies: hobbiesList
 };

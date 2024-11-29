@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "names.js",
   "scripts": {
-    "start": "node names.js",
-    "dev": "node --watch names.js"
+    "start": "node hobbies.js",
+    "dev": "node --watch hobbies.js"
   },
   "author": "Tommaso Villa",
   "license": "ISC",
