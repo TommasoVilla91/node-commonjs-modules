@@ -1,11 +1,11 @@
 const functions = require('./functions');
 
-const names = functions.userName();
-const allHobbies = functions.userHobbies();
+const names = functions.userName('aaa', 'vvv');
+const allHobbies = functions.userHobbies('111', '222', '333');
 
 function userInfo() {
     return {
-        fullName: names.name + " " + names.surname,
+        fullName: names,
         hobbies: allHobbies.hobbies
     };
 };
